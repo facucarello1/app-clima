@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima en tu casa</title>
+    <link rel="stylesheet" href="/CSS/estilos.css">
+</head>
+<body onload="onLoad()">
+
+   
+
+
+
+
+    <div id="contenedor">
+        <div class="bloque">
+            <div class="contenedor-info">  
+                <div class="info-texto" id="temperatura"></div>
+                ºC
+            </div>
+            <div class="contenedor-info">
+                Humedad: 
+                <div class="info-texto" id="humedad"></div>
+                %
+            </div>
+            <div class="contenedor-info">
+                Presión:
+                <div class="info-texto" id="presion"></div>
+                <span>Pa</span>
+            </div>    
+        </div>
+        <div class="bloque">
+            <div class="contenedor-info">
+                <div id="ubicacion"></div>
+            </div>
+            <div class="contenedor-info">
+                <div id="fecha"></div>
+            </div>
+            <div class="contenedor-info">
+                <div id="descripcion"></div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <div id="loader" class="loader">Loading...</div>
+
+    <script src="/JS/funciones.js"></script>
+</body>
+</html>
